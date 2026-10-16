@@ -16,3 +16,4 @@ html{scroll-padding-top:20px}
 }
 @media (max-width:600px){.finish-art{--finish-rot:0deg!important}}
 @media (prefers-reduced-motion:reduce){.finish-ready .finish-reveal,.finish-art{opacity:1!important;filter:none!important;transform:none!important;transition:none!important}}
+.booking-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:0 0 24px;padding-bottom:17px;border-bottom:1px solid #ffffff35}.booking-steps span{font-size:9px;letter-spacing:.09em;font-weight:800;color:#c3b199}.booking-steps span:first-child{color:var(--gold,#d7b276)}@media(max-width:600px){.booking-steps{gap:4px}.booking-steps span{font-size:8px;letter-spacing:.04em}}
